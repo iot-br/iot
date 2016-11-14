@@ -1,0 +1,3 @@
+[submodule "iot-api"]
+	path = iot-api
+	url = https://github.com/iot-br/iot-api
