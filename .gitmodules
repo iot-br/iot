@@ -1,3 +1,0 @@
-[submodule "iot-api"]
-	path = iot-api
-	url = git@github.com:iot-br/iot-api.git
