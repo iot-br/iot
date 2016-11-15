@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+
+  # PHP (with Caddy)
+  app:
+    image: douglaszuqueto/nodejs-hello
+    container_name: test-api
+    volumes:
+      - ../iot-api:/var/www/app
+    ports:
+      - "80:80"
